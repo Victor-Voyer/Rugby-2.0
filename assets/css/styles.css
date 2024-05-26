@@ -1,10 +1,78 @@
+@font-face {
+    font-family: roboto;
+    src: url(/assets/font/Roboto-Font/Roboto/Roboto-Regular.ttf);
+}
+
+:root{
+    --color-green: #2A502B;
+    --color-yellow: #d5a542;
+}
+body{
+    font-family: roboto;
+}
+
+.container-header{
+    padding: 2rem 0 5rem 5rem;
+    background-color: var(--color-green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.container-header__title{
+    display: flex;
+    align-items: center;
+}
+
+.container-header__title__link{
+    text-decoration: none;
+    color: white;
+}
+
+#logo-rugby{
+    max-height: 9rem;
+}
 
 .title-header{
     font-size: 8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 
 em{
-    font-size: 4rem;
+    font-size: 3rem;
+    font-style: italic;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.container-header__nav{
+    margin-right: 5rem;
+}
+
+.container-header__nav__link{
+    color: white;
+    text-decoration: none;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-right: 5rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    transition: 0.3s;
+}
+
+.container-header__nav__link:hover {
+	color: var(--color-green);
+    font-weight: bold;
+	background-color: var(--color-yellow);
+}
+
+
+.container-main{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .container-main__img {
