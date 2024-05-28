@@ -8,7 +8,17 @@ router.get('/', (req, res) =>{
 });
 
 // page article
+router.get('/top14', (req, res) =>{
+    res.render('top14');
+});
 
+router.get('/proD2', (req, res) =>{
+    res.render('proD2');
+});
+
+router.get('/XVdeFrance', (req, res) =>{
+    res.render('XVdeFrance');
+});
 
 
 // on exporte le router 

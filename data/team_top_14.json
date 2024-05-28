@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Stade Toulousain",
+        "logo": "Stade-Toulousain.png"
+    },
+    {
+        "id": 2,
+        "name": "La Rochelle",
+        "logo": "Stade-Rochelais.png"
+    },
+    {
+        "id": 3,
+        "name": "Clermont - ASM",
+        "logo": "ASM.png"
+    },
+    {
+        "id": 4,
+        "name": "Bordeaux-Bègles - UBB",
+        "logo": "UBB.png"
+    },
+    {
+        "id": 5,
+        "name": "Toulon",
+        "logo": "Toulon.png"
+    },
+    {
+        "id": 6,
+        "name": "Stade Français",
+        "logo": "Stade-Français.png"
+    },
+    {
+        "id": 7,
+        "name": "Racing 92",
+        "logo": "Racing-92.png"
+    },
+    {
+        "id": 8,
+        "name": "Section Paloise",
+        "logo": "Section-Paloise.png"
+    },
+    {
+        "id": 9,
+        "name": "Castres Olympique",
+        "logo": "Castres.png"
+    },
+    {
+        "id": 10,
+        "name": "Perpignan - USAP",
+        "logo": "USAP.png"
+    },
+    {
+        "id": 11,
+        "name": "Aviron Bayonnais",
+        "logo": "Bayonne.png"
+    },
+    {
+        "id": 12,
+        "name": "Lyon",
+        "logo": "Lyon.png"
+    },
+    {
+        "id": 13,
+        "name": "Oyonnax",
+        "logo": "Oyonnax.png"
+    },
+    {
+        "id": 14,
+        "name": "Montpellier",
+        "logo": "Montpellier.png"
+    }
+    
+]

@@ -1,0 +1,22 @@
+<%- include ('partials/header') %>
+<main class="container-main">
+    <ul class="container-main__list">
+        <% for(const team of team_top_14) { %>
+
+            <div>
+                <img src="/Top14/<%= team.logo %>" alt="">
+                <li class="container-main__list__team"><a href=""><%= team.name %></a></li>
+            </div>
+            
+        <% } %>
+    </ul>
+    <a href="top14">
+      <img
+        class="container-main__img"
+        src="/images/Top 14.png"
+        alt="Top 14"
+      />
+    </a>
+</main>
+
+<%- include ('partials/footer') %>
