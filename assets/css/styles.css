@@ -104,7 +104,12 @@ em{
 .container-main__list__team:hover{
     background-color: var(--color-yellow);
     color: white;
-    font-size: 1.05rem;
+}
+
+.container-main__list__team__link{
+    text-decoration: none;
+    color: black;
+
 }
 
 .container-footer{
