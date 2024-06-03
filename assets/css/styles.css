@@ -10,7 +10,6 @@
 body{
     font-family: roboto;
     background-color: var(--color-green);
-    /* height: auto; */
 }
 
 .container-header{
@@ -122,3 +121,63 @@ em{
     height: 10vh;
 }
 
+
+
+/* RESPONSIVE */
+
+/* les ecrans a partir de 640px de large */
+@media screen and (min-width: 640px) {
+  
+}
+/* les ecrans a partir de 1000px de large */
+@media screen and (min-width: 1000px) {
+  
+    .container-header{
+        padding: 0 0 0 2rem;
+        background-color: var(--color-green);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+        height: 25vh; 
+    }
+
+    #logo-rugby{
+        max-height: 6.5rem;
+    }
+    
+    .title-header{
+        font-size: 6.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    
+    }
+    
+    em{
+        font-size: 1.8rem;
+        font-style: italic;
+        color: white;
+        padding: 1rem;
+        border-radius: 2rem;
+    }
+
+    .container-header__nav{
+        margin-right: 3rem;
+    }
+    
+    .container-header__nav__link{
+        color: white;
+        text-decoration: none;
+        font-size: 1.8rem;
+        /* text-transform: uppercase; */
+        margin-right: 3rem;
+        padding: 1rem;
+        border-radius: 5rem;
+        transition: 0.3s;
+    }
+
+}
+
+/* les ecrans a partir de 1200px de large */
+@media screen and (min-width: 1200px) {
+  
+}
