@@ -8,7 +8,7 @@ const router = require('./assets/router')
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/assets/views');
 
-app.use(express.static('assets'));
+app.use(express.static('public'));
 
 app.use(router);
 
