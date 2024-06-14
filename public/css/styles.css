@@ -111,6 +111,10 @@ em{
 
 }
 
+.container-main__list__badge{
+    width: 2rem;
+}
+
 .container-footer{
     display: flex;
     justify-content: center;
