@@ -2,10 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/vnd.icon" href="/images/Favicon-Rugby.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">    
     <title>Rugby 2.0</title>
 </head>
 <body>
@@ -19,11 +22,21 @@
             </div>      
         </a>
 
-        <nav class="container-header__nav">
-            <a class="container-header__nav__link" href="/">Accueil</a>           
-            <a class="container-header__nav__link" href="top14">Top 14</a>
-            <a class="container-header__nav__link" href="proD2">Pro D2</a>
-            <a class="container-header__nav__link" href="XVdeFrance">XV de France</a>
+        <nav id="menu-burger" class="container-header__nav">            
+            <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="toggle">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+            <ul class="container-header__nav__list">
+                <li class="container-header__nav__item hidden"><a class="container-header__nav__link" href="/">Accueil</a></li>
+                <li class="container-header__nav__item hidden"><a class="container-header__nav__link" href="top14">Top 14</a></li>
+                <li class="container-header__nav__item hidden"><a class="container-header__nav__link" href="proD2">Pro D2</a></li>
+                <li class="container-header__nav__item hidden"><a class="container-header__nav__link" href="XVdeFrance">XV de France</a></li>
+            </ul>            
         </nav>
+    
+            
         
     </header>

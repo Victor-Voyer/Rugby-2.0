@@ -1,14 +1,10 @@
-@font-face {
-    font-family: roboto;
-    src: url(/font/Roboto-Font/Roboto/Roboto-Regular.ttf);
-}
-
 :root{
+    font-family: "Roboto", sans-serif;
     --color-green: #2A502B;
     --color-yellow: #d5a542;
 }
 body{
-    font-family: roboto;
+    
     background-color: var(--color-green);
 }
 
@@ -129,59 +125,17 @@ em{
 
 /* RESPONSIVE */
 
-/* les ecrans a partir de 640px de large */
-@media screen and (min-width: 640px) {
-  
-}
-/* les ecrans a partir de 1000px de large */
-@media screen and (min-width: 1000px) {
-  
-    .container-header{
-        padding: 0 0 0 2rem;
-        background-color: var(--color-green);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;   
-        height: 25vh; 
-    }
+/* les ecrans a partir de 320px de large (mobile)*/
+@media screen and (min-width: 320px) {
 
-    #logo-rugby{
-        max-height: 6.5rem;
-    }
-    
-    .title-header{
-        font-size: 6.5rem;
-        font-weight: bold;
-        text-transform: uppercase;
-    
-    }
-    
-    em{
-        font-size: 1.8rem;
-        font-style: italic;
-        color: white;
-        padding: 1rem;
-        border-radius: 2rem;
-    }
 
-    .container-header__nav{
-        margin-right: 3rem;
-    }
-    
-    .container-header__nav__link{
-        color: white;
-        text-decoration: none;
-        font-size: 1.8rem;
-        /* text-transform: uppercase; */
-        margin-right: 3rem;
-        padding: 1rem;
-        border-radius: 5rem;
-        transition: 0.3s;
-    }
 
 }
-
-/* les ecrans a partir de 1200px de large */
-@media screen and (min-width: 1200px) {
-  
-}
+/* les ecrans a partir de 500px de large (tablet)*/
+@media screen and (min-width: 500px) {}
+/* les ecrans a partir de 780px de large (tablet-landscape)*/
+@media screen and (min-width: 780px) {}
+/* les ecrans a partir de 1080px de large (laptop)*/
+@media screen and (min-width: 1080px) {}
+/* les ecrans a partir de 1600px de large (desktop) */
+@media screen and (min-width: 1600px) {}
