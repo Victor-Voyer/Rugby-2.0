@@ -4,6 +4,7 @@
 - team : représente les Teams de rugby
 - stade : représente le stade d'une team
 - coach : représente les entraîneurs des Teams
+- championship : représente la compétition de plusieurs team
 - stat : représente les statistiques des players pour la saison
 - user : représente les utilisateurs du site
 
@@ -34,7 +35,7 @@
 - id_stade
 
 
-#### Post
+#### post
 
 - id
 - name_post
@@ -96,6 +97,9 @@
 - Un player peut avoir plusieurs post, et un post peut être lié à plusieurs players.
   - Cardinalité : N,N (player a post) et N,N (post a player)
 
+
+- Une team peut appartenir à une championship mais que une championship possède plusieurs team 
+  - Cardinalité : 1,N (team a championship) et N,1 (championship a team)
 
 - Un utilisateur peut avoir différents rôles sur le site.
     - Cardinalité : 1,1 (user a Rôle)
