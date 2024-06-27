@@ -51,7 +51,7 @@ CREATE TABLE "player"(
     "nationality_id" BIGINT NOT NULL,
     "team_id" INTEGER NOT NULL,
     "created_at" TIMESTAMP(0) WITHOUT TIME ZONE NOT NULL,
-    "uptaded_at" TIMESTAMP(0) WITHOUT TIME ZONE NOT NULL,
+    "uptdated_at" TIMESTAMP(0) WITHOUT TIME ZONE NOT NULL,
     FOREIGN KEY("team_id") REFERENCES "team"("id"),
     FOREIGN KEY("nationality_id") REFERENCES "nationality"("id"),
     FOREIGN KEY("post_id") REFERENCES "post"("id")
